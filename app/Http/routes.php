@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 
 Route::get('/contas', "ContasPagarController@listar");
+Route::get('/contas/salvar', "ContasPagarController@salvar");
+Route::get('/contas/cadastro', "ContasPagarController@cadastro");
